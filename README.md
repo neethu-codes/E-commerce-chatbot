@@ -6,7 +6,7 @@ Currently, the chatbot supports three main intents:
 
 - **faq**: Triggered when users ask questions related to the platform's policies or general information. eg. Is online payment available?
 - **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
-- **small_talk**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
+- **small_talk**: Engaged when users ask casual, conversational questions or initiate friendly exchanges with the chatbot. eg. How are you? or Tell me a joke.
 
 
 ## Architecture
