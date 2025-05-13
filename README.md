@@ -10,7 +10,7 @@ Currently, the chatbot supports three main intents:
 
 
 ## Architecture
-![architecture diagram of the e-commerce chatbot](app/resources/architecture-diagram.png)
+![architecture diagram of the e-commerce chatbot](app/resources/architecture-diagram1.png)
 
 ##  Features
 
