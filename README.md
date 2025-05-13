@@ -1,6 +1,6 @@
 # 💬 E-Commerce Chatbot (Gen AI RAG project using LLama3.3 and GROQ)
 
-This project showcases a proof of concept (POC) for an intelligent chatbot designed for an e-commerce platform. It improves user interaction by accurately understanding queries and providing precise, real-time responses through direct access to the platform's database.
+An intelligent multi-intent chatbot built using **Groq LLM**, **ChromaDB**, **Streamlit**, and **SQLite**. It serves as a smart assistant for an e-commerce platform and can answer FAQs, perform product searches, and engage in casual conversation.
 
 Currently, the chatbot supports three main intents:
 
@@ -12,10 +12,26 @@ Currently, the chatbot supports three main intents:
 ## Architecture
 ![architecture diagram of the e-commerce chatbot](app/resources/architecture-diagram.png)
 
+##  Features
+
+-  **Multi-intent Handling** (FAQ, SQL-based product search, and small talk)
+-  **Semantic Routing** using sentence transformers
+-  **Groq LLM Integration** for natural language understanding and generation
+-  **FAQ Knowledge Base** powered by ChromaDB vector search
+-  **Dynamic SQL Generation** based on natural queries
+-  **Casual Chat** support using Groq for small talk
+-  **Streamlit-based UI** for a clean and interactive chat interface
 
 ### Set-up & Execution
 
-1. Run the following command to install all dependencies. 
+1. Clone the repository. 
+
+    ```bash
+    git clone https://github.com/neethu-codes/E-commerce-chatbot
+    cd E-commerce-chatbot
+    ```
+
+1. install all dependencies. 
 
     ```bash
     pip install -r app/requirements.txt
