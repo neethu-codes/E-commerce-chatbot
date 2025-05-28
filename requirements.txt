@@ -4,3 +4,5 @@ pandas==2.2.3
 python-dotenv==1.1.0
 semantic-router[local]==0.1.7
 streamlit==1.42.0
+sentence-transformers==4.0.1
+transformers==4.50.0
